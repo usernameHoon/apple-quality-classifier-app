@@ -1,1 +1,1 @@
-# apple-sugar-quality-app
+# 사과 품질 예측 사이트
