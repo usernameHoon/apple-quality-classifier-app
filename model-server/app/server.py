@@ -20,17 +20,20 @@ model = load_model()
 
 # 라벨 → 한글 품질 등급 매핑
 label_to_korean = {
-    "Large": "특",
-    "Medium": "보통",
+    "Large": "특", 
+    "Medium": "보통", 
     "Small": "보통 이하"
 }
+
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     # 허용 확장자 검사
-    allowed_extensions = ('.jpg', '.jpeg', '.png')
+    allowed_extensions = (".jpg", ".jpeg", ".png")
     if not file.filename.lower().endswith(allowed_extensions):
-        raise HTTPException(status_code=400, detail="이미지 파일(jpg, jpeg, png)만 업로드 가능합니다.")
+        raise HTTPException(
+            status_code=400, detail="이미지 파일(jpg, jpeg, png)만 업로드 가능합니다."
+        )
 
     try:
         contents = await file.read()
@@ -43,7 +46,7 @@ async def predict(file: UploadFile = File(...)):
     label_ko = label_to_korean.get(label_en, "알 수 없음")
 
     return {
-        "label": label_en,         # 영문 라벨 (ex: Large)
+        "label": label_en,  # 영문 라벨 (ex: Large)
         "label_korean": label_ko,  # 한글 등급 (ex: 특)
-        "confidence": round(confidence, 4)
+        "confidence": round(confidence, 4),
     }
