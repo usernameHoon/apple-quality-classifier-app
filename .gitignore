@@ -1,0 +1,34 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.log
+
+# === Virtual Environments ===
+env/
+venv/
+.venv/
+
+# === React / Node.js (frontend) ===
+node_modules/
+build/
+dist/
+*.env
+
+# === C# / WinForms ===
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.bak
+*.log
+bin/
+obj/
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
