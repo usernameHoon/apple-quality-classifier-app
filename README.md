@@ -16,7 +16,6 @@
 ## 📁 프로젝트 구조
 ```bash
 apple-quality-classifier-app/
-├── backend/                # 백엔드 로직 예정 공간 (현재 비어 있음)
 ├── frontend/               # React + TailwindCSS 기반 프론트엔드
 │   └── apple-quality-predictor-ui/
 │       ├── src/            # React 컴포넌트 및 로직
