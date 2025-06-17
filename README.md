@@ -1,13 +1,13 @@
-# 🍎 사과 품질 분류 애플리케이션 (Apple Quality Classifier App)
+# 🍎 사과 품질 예측 애플리케이션 (Apple Quality Predictor App)
 
-이 프로젝트는 이미지를 기반으로 사과의 품질(예: 특, 상, 보통)을 분류하는 AI 기반 웹 애플리케이션입니다. 
+이 프로젝트는 이미지를 기반으로 사과의 품질(예: 특, 상, 보통)을 예측하는 AI 기반 웹 애플리케이션입니다. 
 프론트엔드는 React로, 모델 서버는 사전 학습된 MobilenetV2 모델을 사용하는 Python 기반으로 구성되어 있습니다.
 
 ---
 
 ## ✨ 주요 기능
 - 웹 인터페이스를 통해 사과 이미지를 업로드
-- 실시간 품질 분류 결과 제공 (예: "특", "상", "보통")
+- 실시간 품질 예측 결과 제공 (예: "특", "상", "보통")
 - 경량 딥러닝 모델을 사용하여 빠른 추론 가능
 - 사용하기 쉽고 반응형 UI 제공
 
@@ -18,7 +18,7 @@
 apple-quality-classifier-app/
 ├── backend/                # 백엔드 로직 예정 공간 (현재 비어 있음)
 ├── frontend/               # React + TailwindCSS 기반 프론트엔드
-│   └── apple-quality-classifier-ui/
+│   └── apple-quality-predictor-ui/
 │       ├── src/            # React 컴포넌트 및 로직
 │       ├── public/         # 정적 파일
 │       └── package.json    # 프로젝트 설정
@@ -39,7 +39,7 @@ apple-quality-classifier-app/
 
 ### 1. 프론트엔드 실행
 ```bash
-cd frontend/apple-quality-classifier-ui
+cd frontend/apple-quality-predictor-ui
 npm install
 npm start
 ```
