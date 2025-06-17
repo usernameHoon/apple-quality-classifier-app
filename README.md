@@ -1,5 +1,5 @@
 # 🍎 사과 품질 예측 애플리케이션 
-# (Apple Quality Predictor App)
+(Apple Quality Predictor App)
 
 이 프로젝트는 이미지를 기반으로 사과의 품질(예: 특, 상, 보통)을 예측하는 AI 기반 웹 애플리케이션입니다. 
 프론트엔드는 React로, 모델 서버는 사전 학습된 MobilenetV2 모델을 사용하는 Python 기반으로 구성되어 있습니다.
