@@ -55,10 +55,9 @@ python app/server.py             # 모델 API 서버 실행
 
 ---
 
-## 💡 사용 예시
-1. 웹 UI 실행
-2. 사과 이미지 업로드
-3. 품질 등급 예측 결과 확인
+## 💡 실행 예시
+![사과 품질 예측 사이트 - Chrome 2025-06-17 15-51-10](https://github.com/user-attachments/assets/3e6596de-4a3a-4478-a3fe-5e52b60907c2)
+
 
 ---
 
