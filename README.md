@@ -54,7 +54,7 @@ python app/server.py             # 모델 API 서버 실행
 
 ---
 
-## 💡 실행 예시
+## 💡 실행 화면
 ![사과 품질 예측 사이트 - Chrome 2025-06-17 15-51-10](https://github.com/user-attachments/assets/3e6596de-4a3a-4478-a3fe-5e52b60907c2)
 
 
